@@ -65,13 +65,19 @@ if (isset($_POST['submit'])) {
 
    if($_FILES['image']['type']!='image/png' && $_FILES['image']['type']!='image/jpg' && $_FILES['image']['type']!='image/jpeg'){
       $msg= "Please select only png, jpg and jpeg image formate";
+   }else{
+      if($_FILES['image']['type']!=''){
+         if($_FILES['image']['type']!='image/png' && $_FILES['image']['type']!='image/jpg' && $_FILES['image']['type']!='image/jpeg'){
+            $msg="Please select only png, jpg and jpeg image formate";
+         }
+      }
    }
 
    if($msg==''){
       if (isset($_GET['id']) && $_GET['id'] != '') {
          if($_FILES['image']['name']!=''){
             $image=rand(111111111,999999999).'_'.$_FILES['image']['name'];
-            move_uploaded_file($_FILES['image']['tmp_name'], '../media/product/'.$image);
+            move_uploaded_file($_FILES['image']['tmp_name'], PRODUCT_IMAGE_SERVER_PATH.$image);
            $update_sql= "update product set categories_id = '$categories_id', name='$name', mrp='$mrp', price='$price', qty='$qty', short_desc='$short_desc', description='$description', meta_title='$meta_title', meta_desc='$meta_desc', meta_keyword='$meta_keyword' , image='$image', where id='$id'";
          }else{
             $update_sql= "update product set categories_id = '$categories_id', name='$name', mrp='$mrp', price='$price', qty='$qty', short_desc='$short_desc', description='$description', meta_title='$meta_title', meta_desc='$meta_desc', meta_keyword='$meta_keyword' where id='$id'";
