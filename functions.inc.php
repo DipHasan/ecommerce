@@ -10,11 +10,16 @@
         die();
     }
 
-    function get_product($con, $type='', $limit=''){
+    function get_product($con, $limit='', $cat_id='', $product_id=''){
         $sql="select * from product where status=1";
-        if($type=='latest'){
-            $sql.=" order by id desc";
+        if($cat_id!=''){
+            $sql.=" and categories_id= $cat_id";
         }
+
+        if( $product_id!=''){
+            $sql.=" and id=  $product_id";
+        }
+       
         if($limit !=''){
             $sql.=" limit $limit";
         }
