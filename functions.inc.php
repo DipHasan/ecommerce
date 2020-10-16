@@ -30,7 +30,7 @@
         $sql.=" and product.categories_id=categories.id ";
         $sql.=" order by product.id desc";
         if($limit !=''){
-            $sql.=" product.limit $limit";
+            $sql.=" limit $limit";
         }
         $res=mysqli_query($con, $sql);
         $data= array();
