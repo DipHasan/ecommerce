@@ -32,7 +32,6 @@ if($cat_id>0){
                     </div>
                 </div>
             </div>
-            <!-- End Search Popap -->
             <!-- Start Cart Panel -->
             <div class="shopping__cart">
                 <div class="shopping__cart__inner">
