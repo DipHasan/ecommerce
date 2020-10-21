@@ -101,8 +101,6 @@ if($cat_id>0){
                 </div>
             </div>
         </div>
-        <!-- End Bradcaump area -->
-        <!-- Start Product Grid -->
         <section class="htc__product__grid bg__white ptb--100">
             <div class="container">
                 <div class="row">
