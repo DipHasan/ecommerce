@@ -100,7 +100,6 @@
             </div>
         </section>
         <!-- End Contact Area -->
-        <!-- End Banner Area -->
         <!-- Start Footer Area -->
         <footer id="htc__footer">
             <!-- Start Footer Widget -->
