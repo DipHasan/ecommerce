@@ -99,8 +99,6 @@
 					
             </div>
         </section>
-        <!-- End Contact Area -->
-        <!-- Start Footer Area -->
         <footer id="htc__footer">
             <!-- Start Footer Widget -->
             <div class="footer__container bg__cat--1">
