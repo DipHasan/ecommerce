@@ -126,8 +126,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
                         <div class="col-md-2 col-sm-6 col-xs-12 xmt-40">
                             <div class="footer">
                                 <h2 class="title__line--2">information</h2>
