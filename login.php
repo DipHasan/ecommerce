@@ -1,4 +1,4 @@
-<?php require('top.php');?>
+<?php require 'top.php';?>
 <!-- Start Bradcaump area -->
 <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(images/bg/4.jpg) no-repeat scroll center center / cover ;">
             <div class="ht__bradcaump__wrap">
@@ -41,7 +41,7 @@
 											<input type="text" name="name" placeholder="Your Password*" style="width:100%">
 										</div>
 									</div>
-									
+
 									<div class="contact-btn">
 										<button type="submit" class="fv-btn">Login</button>
 									</div>
@@ -50,10 +50,10 @@
 									<p class="form-messege"></p>
 								</div>
 							</div>
-						</div> 
-                
+						</div>
+
 				</div>
-				
+
 
 					<div class="col-md-6">
 						<div class="contact-form-wrap mt--60">
@@ -84,7 +84,7 @@
 											<input type="text" name="name" placeholder="Your Password*" style="width:100%">
 										</div>
 									</div>
-									
+
 									<div class="contact-btn">
 										<button type="submit" class="fv-btn">Register</button>
 									</div>
@@ -93,10 +93,10 @@
 									<p class="form-messege"></p>
 								</div>
 							</div>
-						</div> 
-                
+						</div>
+
 				</div>
-					
+
             </div>
         </section>
         <footer id="htc__footer">
@@ -140,8 +140,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
                         <div class="col-md-2 col-sm-6 col-xs-12 xmt-40 smt-40">
                             <div class="footer">
                                 <h2 class="title__line--2">my account</h2>
@@ -184,7 +182,7 @@
                                             <a class="fr__btn" href="#">Send Mail</a>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -210,4 +208,4 @@
         </footer>
         <!-- End Footer Style -->
     </div>
-<?php require('footer.php') ?>       
+<?php require 'footer.php'?>
